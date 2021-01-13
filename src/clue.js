@@ -3,8 +3,8 @@
 // Suspects Collection
 const suspectsArray = [
     {
-        firstName: '',
-        lastName: '',
+        firstName: 'a',
+        lastName: 'b',
         occupation: '',
         age: '',
         description: '',
@@ -12,8 +12,8 @@ const suspectsArray = [
         color: ''
     },
     {
-        firstName: '',
-        lastName: '',
+        firstName: 'ab',
+        lastName: 'ab',
         occupation: '',
         age: '',
         description: '',
@@ -21,8 +21,8 @@ const suspectsArray = [
         color: ''
     },
     {
-        firstName: '',
-        lastName: '',
+        firstName: 'a',
+        lastName: 'a',
         occupation: '',
         age: '',
         description: '',
@@ -30,8 +30,8 @@ const suspectsArray = [
         color: ''
     },
     {
-        firstName: '',
-        lastName: '',
+        firstName: 'a',
+        lastName: 'a',
         occupation: '',
         age: '',
         description: '',
@@ -39,8 +39,8 @@ const suspectsArray = [
         color: ''
     },
     {
-        firstName: '',
-        lastName: '',
+        firstName: 'a',
+        lastName: 'a',
         occupation: '',
         age: '',
         description: '',
@@ -48,8 +48,8 @@ const suspectsArray = [
         color: ''
     },
     {
-        firstName: '',
-        lastName: '',
+        firstName: 'a',
+        lastName: 'a',
         occupation: '',
         age: '',
         description: '',
@@ -111,39 +111,39 @@ const roomsArray = [
 // Weapons Collection
 const weaponsArray = [
     {
-        name: '',
+        name: 'ff',
         weight: ''
     },
     {
-        name: '',
+        name: 'ff',
         weight: ''
     },
     {
-        name: '',
+        name: 'ff',
         weight: ''
     },
     {
-        name: '',
+        name: 'ff',
         weight: ''
     },
     {
-        name: '',
+        name: 'ff',
         weight: ''
     },
     {
-        name: '',
+        name: 'ff',
         weight: ''
     },
     {
-        name: '',
+        name: 'ff',
         weight: ''
     },
     {
-        name: '',
+        name: 'ff',
         weight: ''
     },
     {
-        name: '',
+        name: 'ff',
         weight: ''
     }
 ];
@@ -165,4 +165,4 @@ let envelope = pickMystery();
 function revealMystery(object) {
    return (`${object.suspect.firstName} ${object.suspect.lastName} killed Mr. Boddy using the ${object.weapon.name} in the ${object.room.name}!`);
 }
-revealMystery(envelope)
+console.log(revealMystery(envelope))
